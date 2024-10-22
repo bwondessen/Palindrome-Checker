@@ -18,10 +18,22 @@ body {
     color: var(--secondaryAccentColor);
     width: 350px;
     padding: 15px;
+    margin: auto;
+    border-radius: 15px;
 }
 
 .inline {
     display: flex;
     justify-content: center;
     padding: 15px;
+}
+
+button {
+    background-color: white;
+    margin-left: 3px;
+}
+
+input, button {
+    border-radius: 5px;
+    padding: 5px;    
 }
