@@ -1,0 +1,27 @@
+:root {
+    --backgroundColor: #fbf6f1;
+    --accentColor: #724847;
+    --secondaryBackgroundColor: #724847;
+    --secondaryAccentColor: white;
+}
+
+body {
+    background-color: var(--backgroundColor);
+    color: var(--accentColor);
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+.main {
+    background-color: var(--accentColor);
+    color: var(--secondaryAccentColor);
+    width: 350px;
+    padding: 15px;
+}
+
+.inline {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
